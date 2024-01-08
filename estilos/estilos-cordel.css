@@ -1,0 +1,222 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Rustika';
+    src: url('../../assets/fontes/rustika.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Cordelina';
+    src: url('../../assets/fontes/cordelina.otf') format('opentype');
+}
+
+
+header > p{
+    font-size: 20px;
+}
+
+header > h1{
+    margin: 13px;
+    font-size: 50px;
+}
+
+header{
+    height: 170px;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.966);
+    color: #f8f3ed;
+    font-family: 'Cordelina';
+    text-align: center;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.fundo > article > p{ 
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    margin-left: 30px;
+    font-size: 26px;
+    font-family: 'Rustika' ;
+    font-style: italic;
+}
+
+.fundo{
+    background-position: center center;
+    margin-top: 0px;
+    padding: 1px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../../assets/imagens/fundo1.jpeg');
+}
+
+.fundo2 article > p {
+    text-align: center;
+    margin-left: 25px;
+    font-size: 24px;
+    font-family: 'Rustika' ;
+    font-style: italic;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+.fundo2 > article{
+    margin: 17px;
+    padding: 15px;
+    height: 26%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.171);
+    opacity: 0.9;
+}
+
+.fundo2{
+    background-attachment: fixed;
+    margin-top: -17px;
+    background-image: url('../../assets/imagens/background001.jpg');
+    background-position: center center;
+   
+}
+
+.fundo3{
+    padding: 20px;
+    margin-top: -17px;
+    background-size: cover;
+    background-image: url('../../assets/imagens/fundo-3.jpg');
+}
+
+.fundo3 ul{
+   list-style-type: none;
+}
+
+.fundo3 ul > li{
+    line-height: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Rustika' ;
+    text-align: center;
+    font-style: italic;
+}
+
+.fundo4{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../../assets/imagens/background002.jpg');
+    margin-top: -17px;
+}
+
+ .fundo4 > article > p{
+    margin-left: 25px;
+ }
+
+.fundo4 > article{
+    font-size: 24px;
+    font-family: 'Rustika';
+    font-style: italic;
+    color: #ffffff;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.171);
+    opacity: 0.9;
+    height: 20%;
+    width: 30%;
+    margin: 17px;
+}
+
+.fundo5 > article{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.171);
+    opacity: 0.9;
+    height: 10%;
+    width: 30%;
+    margin: auto;
+    padding: 6px;
+}
+
+.fundo5 ul {
+    list-style-type: none;
+}
+
+.fundo5{
+    font-weight: 500;
+    color: #f8f3ed;
+    font-family: 'Rustika';
+    font-size: 24px;
+    background-image: url('../../assets/imagens/imagem-cordel.jpg');
+    margin-top: -17px;
+    padding: 5px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(54, 49, 49, 0.733);
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer{
+    font-style: italic;
+    font-size: 26px;
+    font-family: 'Cordelina';
+    text-align: center;
+    padding: 1px;
+    color: #ffffff;
+    background-color:  rgba(0, 0, 0, 0.966);
+}
+
+@media (max-width: 730px) {
+   .fundo4 > article{
+    margin: auto;
+    font-size: 20px;
+    width: 70%;
+   } 
+    .fundo2 > article{
+        font-size: 20px;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+    .fundo5 > article{
+        width: 60%;
+        margin: auto;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1063px){
+    .fundo2 > article{
+        width: 80%;
+        margin-bottom: 16px;
+        margin-top: -20px;
+    }
+    .fundo4 > article{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 16px;
+        margin-top: -20px;
+    }
+    .fundo5 > article{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
